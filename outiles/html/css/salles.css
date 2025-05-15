@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #4C454C;
+    align-items: center;
+    color: #fff;
+}
+
+section.salles {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+section.salles .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+}
+section.salles .title h2 {
+    border: 2px solid #FF99CC;
+    border-radius: 20px;
+    font-size: 2rem;
+    padding: 3rem;
+    margin-bottom: 2rem;
+}
+
+section.salles .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+section.salles .container .salle {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 3px 50px 0px rgba(0,0,0,0.16), 0px 3px 6px 0px rgba(0,0,0,0.23);
+    transition: 0.3s;
+    background-color: #4C454C;
+    width: 40rem;
+}
+
+@media screen and (max-width: 700px) {
+    section.salles .container .salle {
+        flex-direction: column;
+        padding-bottom: 2rem;
+        padding-top: 1rem;
+    }
+    main section.salles .container .salle .left img {
+        border-radius: 20px;
+    }
+    main section.salles .container .salle .right{
+        align-items: center;
+    }
+    main section.salles .container .salle .right .btn a{
+        margin-left: 0;
+    }
+}
+
+section.salles .container .salle:hover {
+    transform: scale(1.05);
+    color: #FF99CC;
+    box-shadow: 0px 3px 50px 0px #FF99CC, 0px 3px 6px 0px #FF99CC;
+    transition: 0.3s;
+}
+
+section.salles .container .salle .left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.salles .container .salle .left img {
+    width: 20rem;
+    border-radius: 20px 0 20px 0;
+}
+section.salles .container .salle .left p {
+    padding: 1rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+section.salles .container .salle .right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+section.salles .container .salle .right h3 {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+section.salles .container .salle .right p {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+section.salles .container .salle .right p img{
+    width: 5rem;
+    border-radius: 50px;
+    margin-left: 1.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+section.salles .container .salle .right p img:hover{
+    transform: scale(1.5);
+    transition: all 0.3s ease-in-out;
+}
+
+section.salles .container .salle .right .btn {
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+section.salles .container .salle .right .btn a {
+    width: 6rem;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    box-shadow: 0px 3px 50px 0px rgba(0,0,0,0.16), 0px 3px 6px 0px rgba(0,0,0,0.23);
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 800;
+    transition: 0.1s;
+}
+
+section.salles .container .salle .right .btn a:hover {
+    color: #FF99CC;
+    border: 1px solid #FF99CC;
+    transition: 0.1s;
+}

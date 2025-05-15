@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+}
+
+nav ul a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    text-transform: uppercase;
+    transform: translate(0, 0);
+    transition: all 0.1s ease-in-out;
+}
+nav ul a:hover{
+    color: #FF99CC;
+    transform: translate(20px, 20px);
+    transition: all 0.1s ease-in-out;
+    
+}
+

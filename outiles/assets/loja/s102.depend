@@ -1,0 +1,324 @@
+# depslib dependency file v1.0
+1732280956 source:z:\c++.2\s102\s102\src\image.cpp
+	<SDL_image.h>
+	<exception>
+	"Image.h"
+
+1733155187 source:z:\c++.2\s102\s102\src\main.cpp
+	<vector>
+	"Moteur.h"
+	"Image.h"
+	"Personnage.h"
+
+1729577316 source:z:\c++.2\s102\s102\src\moteur.cpp
+	<SDL_image.h>
+	"Moteur.h"
+
+1733158032 source:z:\c++.2\s102\s102\src\personnage.cpp
+	<vector>
+	"Moteur.h"
+	"Image.h"
+	"Personnage.h"
+	<iostream>
+
+1733160520 source:c:\users\moi\desktop\c++\s102\s102\s102\src\image.cpp
+	<SDL_image.h>
+	<exception>
+	"Image.h"
+
+1736157501 source:c:\users\moi\desktop\c++\s102\s102\s102\src\main.cpp
+	<vector>
+	"Moteur.h"
+	"Image.h"
+	"Personnage.h"
+	"Tuile.h"
+	"Dictionnaire.h"
+	"Niveau.h"
+
+1733160520 source:c:\users\moi\desktop\c++\s102\s102\s102\src\moteur.cpp
+	<SDL_image.h>
+	"Moteur.h"
+
+1736157501 source:c:\users\moi\desktop\c++\s102\s102\s102\src\personnage.cpp
+	<vector>
+	"Moteur.h"
+	"Image.h"
+	"Personnage.h"
+	<iostream>
+
+1733952135 c:\users\moi\desktop\c++\s102\s102\s102\src\personnage.cpp
+	<vector>
+	"Moteur.h"
+	"Image.h"
+	"Personnage.h"
+	<iostream>
+
+1736088768 source:c:\users\moi\desktop\c++\s102\s102\s102\src\tuile.cpp
+	<vector>
+	"Moteur.h"
+	"Image.h"
+	"Personnage.h"
+	"Tuile.h"
+	<iostream>
+
+1736073979 source:c:\users\moi\desktop\c++\s102\s102\s102\src\maintest.cpp
+	<vector>
+	"Moteur.h"
+	"Image.h"
+	"Personnage.h"
+	"Tuile.h"
+	"Dictionnaire.h"
+
+1736074017 source:c:\users\moi\desktop\c++\s102\s102\s102\src\dictionnaire.cpp
+	<vector>
+	"Moteur.h"
+	"Image.h"
+	"Personnage.h"
+	"Tuile.h"
+	"Dictionnaire.h"
+	<iostream>
+	<fstream>
+	<stdexcept>
+
+1736154001 source:c:\users\moi\desktop\c++\s102\s102\s102\src\objet.cpp
+	"Moteur.h"
+	"Image.h"
+	"Personnage.h"
+	"Tuile.h"
+	"Objet.h"
+	<vector>
+	<iostream>
+
+1736154001 source:c:\users\moi\desktop\c++\s102\s102\s102\src\niveau.cpp
+	"Moteur.h"
+	"Image.h"
+	"Personnage.h"
+	"Tuile.h"
+	"Objet.h"
+	"Niveau.h"
+	<vector>
+	<fstream>
+	<stdexcept>
+	<iostream>
+
+1736070416 source:z:\c++.2\s102\s102\s102\src\dictionnaire.cpp
+	<vector>
+	"Moteur.h"
+	"Image.h"
+	"Personnage.h"
+	"Tuile.h"
+	"Dictionnaire.h"
+	<iostream>
+	<fstream>
+	<stdexcept>
+
+1733156920 source:z:\c++.2\s102\s102\s102\src\image.cpp
+	<SDL_image.h>
+	<exception>
+	"Image.h"
+
+1736153900 source:z:\c++.2\s102\s102\s102\src\main.cpp
+	<vector>
+	"Moteur.h"
+	"Image.h"
+	"Personnage.h"
+	"Tuile.h"
+	"Dictionnaire.h"
+	"Niveau.h"
+
+1733156920 source:z:\c++.2\s102\s102\s102\src\moteur.cpp
+	<SDL_image.h>
+	"Moteur.h"
+
+1736150400 source:z:\c++.2\s102\s102\s102\src\niveau.cpp
+	"Moteur.h"
+	"Image.h"
+	"Personnage.h"
+	"Tuile.h"
+	"Objet.h"
+	"Niveau.h"
+	<vector>
+	<fstream>
+	<stdexcept>
+	<iostream>
+
+1736150400 source:z:\c++.2\s102\s102\s102\src\objet.cpp
+	"Moteur.h"
+	"Image.h"
+	"Personnage.h"
+	"Tuile.h"
+	"Objet.h"
+	<vector>
+	<iostream>
+
+1736153900 source:z:\c++.2\s102\s102\s102\src\personnage.cpp
+	<vector>
+	"Moteur.h"
+	"Image.h"
+	"Personnage.h"
+	<iostream>
+
+1736085168 source:z:\c++.2\s102\s102\s102\src\tuile.cpp
+	<vector>
+	"Moteur.h"
+	"Image.h"
+	"Personnage.h"
+	"Tuile.h"
+	<iostream>
+
+1737383007 source:z:\s102version final\s102\s102\s102\s102\src\dictionnaire.cpp
+	"Dictionnaire.h"
+	<fstream>
+
+1737383007 source:z:\s102version final\s102\s102\s102\s102\src\image.cpp
+	<SDL_image.h>
+	<exception>
+	"Image.h"
+
+1737383007 source:z:\s102version final\s102\s102\s102\s102\src\main.cpp
+	"Moteur.h"
+	"Image.h"
+	"Personnage.h"
+	"Tuile.h"
+	"Dictionnaire.h"
+	"Niveau.h"
+
+1737383007 source:z:\s102version final\s102\s102\s102\s102\src\moteur.cpp
+	<SDL_image.h>
+	"Moteur.h"
+
+1737383007 source:z:\s102version final\s102\s102\s102\s102\src\niveau.cpp
+	"Image.h"
+	"Objet.h"
+	"Niveau.h"
+	<fstream>
+	<stdexcept>
+
+1737385362 source:z:\s102version final\s102\s102\s102\s102\src\objet.cpp
+	"Image.h"
+	"Objet.h"
+
+1737383007 source:z:\s102version final\s102\s102\s102\s102\src\personnage.cpp
+	"Image.h"
+	"Personnage.h"
+
+1737383007 source:z:\s102version final\s102\s102\s102\s102\src\tuile.cpp
+	"Tuile.h"
+
+1737386607 source:z:\s1\s102version final\s102\s102\s102\s102\src\dictionnaire.cpp
+	"Dictionnaire.h"
+	<fstream>
+
+1737386607 source:z:\s1\s102version final\s102\s102\s102\s102\src\image.cpp
+	<SDL_image.h>
+	<exception>
+	"Image.h"
+
+1737386607 source:z:\s1\s102version final\s102\s102\s102\s102\src\main.cpp
+	"Moteur.h"
+	"Image.h"
+	"Personnage.h"
+	"Tuile.h"
+	"Dictionnaire.h"
+	"Niveau.h"
+
+1737386607 source:z:\s1\s102version final\s102\s102\s102\s102\src\moteur.cpp
+	<SDL_image.h>
+	"Moteur.h"
+
+1737386607 source:z:\s1\s102version final\s102\s102\s102\s102\src\niveau.cpp
+	"Image.h"
+	"Objet.h"
+	"Niveau.h"
+	<fstream>
+	<stdexcept>
+
+1737389425 source:z:\s1\s102version final\s102\s102\s102\s102\src\objet.cpp
+	"Image.h"
+	"Objet.h"
+
+1737386607 source:z:\s1\s102version final\s102\s102\s102\s102\src\personnage.cpp
+	"Image.h"
+	"Personnage.h"
+
+1737386607 source:z:\s1\s102version final\s102\s102\s102\s102\src\tuile.cpp
+	"Tuile.h"
+
+1737386608 source:d:\loja\src\dictionnaire.cpp
+	"Dictionnaire.h"
+	<fstream>
+
+1737386608 source:d:\loja\src\image.cpp
+	<SDL_image.h>
+	<exception>
+	"Image.h"
+
+1737386608 source:d:\loja\src\main.cpp
+	"Moteur.h"
+	"Image.h"
+	"Personnage.h"
+	"Tuile.h"
+	"Dictionnaire.h"
+	"Niveau.h"
+
+1737386608 source:d:\loja\src\moteur.cpp
+	<SDL_image.h>
+	"Moteur.h"
+
+1737386608 source:d:\loja\src\niveau.cpp
+	"Image.h"
+	"Objet.h"
+	"Niveau.h"
+	<fstream>
+	<stdexcept>
+
+1737389426 source:d:\loja\src\objet.cpp
+	"Image.h"
+	"Objet.h"
+
+1737386608 source:d:\loja\src\personnage.cpp
+	"Image.h"
+	"Personnage.h"
+
+1737386608 source:d:\loja\src\tuile.cpp
+	"Tuile.h"
+
+1737383008 source:z:\portofolio\loja\src\dictionnaire.cpp
+	"Dictionnaire.h"
+	<fstream>
+
+1737383008 source:z:\portofolio\loja\src\image.cpp
+	<SDL_image.h>
+	<exception>
+	"Image.h"
+
+1737383008 source:z:\portofolio\loja\src\main.cpp
+	"Moteur.h"
+	"Image.h"
+	"Personnage.h"
+	"Tuile.h"
+	"Dictionnaire.h"
+	"Niveau.h"
+
+1737383008 source:z:\portofolio\loja\src\moteur.cpp
+	<SDL_image.h>
+	"Moteur.h"
+
+1737383008 source:z:\portofolio\loja\src\niveau.cpp
+	"Image.h"
+	"Objet.h"
+	"Niveau.h"
+	<fstream>
+	<stdexcept>
+
+1737385826 source:z:\portofolio\loja\src\objet.cpp
+	"Image.h"
+	"Objet.h"
+
+1737383008 source:z:\portofolio\loja\src\personnage.cpp
+	"Image.h"
+	"Personnage.h"
+
+1737383008 source:z:\portofolio\loja\src\tuile.cpp
+	"Tuile.h"
+

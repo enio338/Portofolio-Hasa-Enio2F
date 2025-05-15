@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Portfolio – Enio Hasa</title>
+
+  <!-- feuilles de style et icônes placées dans /outiles -->
+  <link rel="stylesheet" href="outiles/css/all.min.css">
+  <link rel="stylesheet" href="outiles/styles.css">
+
+  <style>
+    /* avatar cercle */
+    .avatar{
+      width:240px;height:240px;object-fit:cover;border-radius:50%;
+      box-shadow:0 4px 14px rgba(0,0,0,.12);
+    }
+    .copy-mail{cursor:pointer}
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="#hero">Accueil</a>
+    <a href="#skills">Compétences</a>
+    <a href="#projects">Projets</a>
+    <a href="#experience">Expérience</a>
+    <a href="#education">Formations</a>
+    <a href="#ambition">Ambition</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- ========== PRÉSENTATION ========== -->
+<section id="hero" class="hero">
+  <div class="text">
+    <h1>Salut, je suis <span class="grad">Enio</span></h1>
+    <p>
+      Étudiant en <strong>1<sup>re</sup> année</strong> de
+      <span class="grad">BUT&nbsp;Informatique</span> à l’IUT d’Orsay,
+      passionné par <strong>l’informatique</strong> et le
+      <strong>développement&nbsp;logiciel</strong>.
+    </p>
+  </div>
+
+  <img src="outiles/foto/avatar.jpg" alt="Photo d’Enio" class="avatar">
+
+  <div class="social">
+    <a class="btn" href="https://www.linkedin.com/in/enio-hasa-a64424331/" target="_blank">
+      <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
+    <a class="btn" href="https://git.iut-orsay.fr/ehasa" target="_blank">
+      <i class="fab fa-gitlab"></i> Git IUT-Orsay
+    </a>
+    <a class="btn copy-mail" id="copyMailHero">
+      <i class="fa fa-envelope"></i> Copier l’e-mail
+    </a>
+  </div>
+</section>
+
+<!-- ========== COMPÉTENCES ========== -->
+<section id="skills">
+  <h2>Compétences</h2>
+  <ul class="tabs">
+    <li class="active" data-target="hard">Hard skills</li>
+    <li data-target="soft">Soft skills</li>
+    <li data-target="lang">Langues</li>
+  </ul>
+
+  <!-- Hard -->
+  <div class="tab active" id="hard">
+    <span class="chip" data-title="Java"
+          data-detail="☕ Développement orienté objet, projets universitaires.">☕ Java</span>
+    <span class="chip" data-title="C++"
+          data-detail="💻 STL & SDL 2 : création d’un jeu 2D.">💻 C++</span>
+    <span class="chip" data-title="HTML / CSS"
+          data-detail="🌐 Intégration responsive.">🌐 HTML / CSS</span>
+    <span class="chip" data-title="JavaScript"
+          data-detail="✨ Manipulation du DOM, animations.">✨ JavaScript</span>
+    <span class="chip" data-title="SQL"
+          data-detail="🗄️ Modélisation & requêtes complexes.">🗄️ SQL</span>
+    <span class="chip" data-title="Linux"
+          data-detail="🐧 Terminal & scripts Bash.">🐧 Linux</span>
+    <span class="chip" data-title="Git"
+          data-detail="🌳 Gestion de versions (GitLab Flow).">🌳 Git</span>
+  </div>
+
+  <!-- Soft -->
+  <div class="tab" id="soft">
+    <span class="chip" data-title="Curiosité"
+          data-detail="🔍 Veille et apprentissage constants.">🔍 Curieux</span>
+    <span class="chip" data-title="Autonomie"
+          data-detail="🤖 Travail organisé et responsable.">🤖 Autonome</span>
+    <span class="chip" data-title="Communication"
+          data-detail="💬 Partage clair d’idées et de solutions.">💬 Communication</span>
+    <span class="chip" data-title="Travail d’équipe"
+          data-detail="👥 Collaboration efficace (SCRUM, pair-prog).">👥 Travail d’équipe</span>
+    <span class="chip" data-title="Calme & patient"
+          data-detail="🧘 Garde son sang-froid sous pression.">🧘 Calme</span>
+  </div>
+
+  <!-- Langues -->
+  <div class="tab" id="lang">
+    <span class="chip" data-title="Anglais"
+          data-detail="🇬🇧 Niveau B2 : lecture & rédaction techniques.">🇬🇧 Anglais</span>
+    <span class="chip" data-title="Français"
+          data-detail="🇫🇷 Niveau A2 : en amélioration continue.">🇫🇷 Français</span>
+    <span class="chip" data-title="Albanais"
+          data-detail="🇦🇱 Langue maternelle.">🇦🇱 Albanais</span>
+  </div>
+</section>
+
+<!-- ========== CENTRES D’INTÉRÊT ========== -->
+<section id="interests">
+  <h2>Centres d’intérêt</h2>
+  <div class="chips">
+    <span class="chip">🎮 Jeux vidéo</span>
+    <span class="chip">🎵 Musique</span>
+    <span class="chip">⚽ Football</span>
+  </div>
+</section>
+
+<!-- ========== PROJETS ========== -->
+<section id="projects">
+  <h2>Projets</h2>
+  <div class="grid">
+
+    <!-- Site vitrine -->
+    <a class="card"
+       href="outiles/html/html/index.html" target="_blank"
+       data-title="Site vitrine"
+       data-detail="Cliquez pour visiter le site complet.">
+      <img src="outiles/foto/foto.jpg" alt="Aperçu du site"
+           style="width:100%;border-radius:8px;">
+      <h3>Site vitrine</h3>
+    </a>
+
+    <!-- Jeu C++ : vidéo -->
+    <a class="card demo"
+       data-title="Jeu C++"
+       data-detail="Vidéo de démonstration – cliquez pour agrandir."
+       data-video="outiles/video/video.mp4">
+      <video src="outiles/video/video.mp4" muted playsinline
+             style="width:100%;border-radius:8px;"></video>
+      <h3>Jeu C++ (démo)</h3>
+    </a>
+
+  </div>
+</section>
+
+<!-- ========== EXPÉRIENCE ========== -->
+<section id="experience">
+  <h2>Expérience professionnelle</h2>
+  <ul class="timeline">
+    <li><span class="date">2021 – 2022</span> Serveur dans un restaurant</li>
+  </ul>
+</section>
+
+<!-- ========== FORMATIONS ========== -->
+<section id="education">
+  <h2>Formations</h2>
+  <ul class="timeline">
+    <li><span class="date">2022 – 2024</span> Lycée Gambetta-Carnot, Arras — Bac scientifique</li>
+    <li><span class="date">2024 – 2026</span> BUT Informatique — IUT d’Orsay, Université Paris-Saclay</li>
+  </ul>
+</section>
+
+<!-- ========== AMBITION ========== -->
+<section id="ambition" class="ambition">
+  <h2>Mon ambition</h2>
+  <p>Créer mon propre <strong>studio de jeux vidéo</strong>.</p>
+</section>
+
+<!-- ========== CONTACT ========== -->
+<section id="contact">
+  <h2>Contact</h2>
+  <p class="copy-mail" id="copyMailContact">
+    <i class="fa fa-envelope"></i> enio.hasa@universite-paris-saclay.fr
+  </p>
+  <small>(cliquez pour copier)</small>
+</section>
+
+<footer>© 2025 Enio Hasa</footer>
+
+<!-- ==================== MODAL ==================== -->
+<div class="overlay" id="overlay">
+  <div class="modal">
+    <button id="close">×</button>
+    <h3 id="mTitle"></h3>
+    <p  id="mDetail"></p>
+  </div>
+</div>
+
+<!-- ==================== SCRIPTS ==================== -->
+<script>
+/* Défilement fluide */
+document.querySelectorAll('nav a').forEach(a=>{
+  a.onclick=e=>{
+    e.preventDefault();
+    document.querySelector(a.hash).scrollIntoView({behavior:'smooth'});
+  };
+});
+
+/* Onglets */
+const tabs=document.querySelectorAll('.tabs li');
+const panes=document.querySelectorAll('.tab');
+tabs.forEach(t=>t.onclick=()=>{
+  tabs.forEach(x=>x.classList.remove('active'));
+  panes.forEach(p=>p.classList.remove('active'));
+  t.classList.add('active');
+  document.getElementById(t.dataset.target).classList.add('active');
+});
+
+/* Modal + vidéo */
+const overlay=document.getElementById('overlay');
+const mTitle =document.getElementById('mTitle');
+const mDetail=document.getElementById('mDetail');
+
+function openModal(el){
+  mTitle.textContent  = el.dataset.title  || '';
+  mDetail.textContent = el.dataset.detail || '';
+
+  /* retire ancienne vidéo */
+  const old=mDetail.nextElementSibling;
+  if(old && old.tagName==='VIDEO') old.remove();
+
+  /* ajoute nouvelle vidéo si besoin */
+  if(el.dataset.video){
+    const vid=document.createElement('video');
+    vid.src=el.dataset.video;
+    vid.controls=true;
+    vid.autoplay=true;
+    vid.style.cssText='margin-top:1rem;max-width:100%;border-radius:8px;';
+    mDetail.after(vid);
+  }
+  overlay.classList.add('show');
+}
+document.querySelectorAll('.chip,.card').forEach(el=>el.onclick=()=>openModal(el));
+document.getElementById('close').onclick=()=>overlay.classList.remove('show');
+overlay.onclick=e=>{ if(e.target===overlay) overlay.classList.remove('show'); };
+
+/* Copier l’e-mail */
+const MAIL='enio.hasa@universite-paris-saclay.fr';
+function copyMail(element){
+  navigator.clipboard.writeText(MAIL).then(()=>{
+    const original=element.innerHTML;
+    element.innerHTML='Copié !';
+    setTimeout(()=>{ element.innerHTML=original; },1500);
+  });
+}
+document.getElementById('copyMailHero')   .onclick =
+document.getElementById('copyMailContact').onclick = function(){ copyMail(this); };
+</script>
+</body>
+</html>
